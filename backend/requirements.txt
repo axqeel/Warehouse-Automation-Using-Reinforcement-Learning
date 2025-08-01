@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+pydantic
+alembic
+python-dotenv
+stable-baselines3
+gymnasium
+numpy
+requests
