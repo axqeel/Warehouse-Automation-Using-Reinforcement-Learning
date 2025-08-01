@@ -29,33 +29,6 @@ A full-stack AI project simulating autonomous warehouse robots trained using rei
 - Color-coded agents and products
 - Real-time updates with zoom/pan support
 
----
-
-## 📁 Project Structure
-
-\`\`\`
-warehouse-ai-frontend/
-├── backend/
-│   ├── app.py               # FastAPI/Flask backend
-│   ├── warehouse_env.py     # Gym-compatible RL environment
-│   ├── ppo_model.py         # Model training & inference
-│   ├── database.py          # PostgreSQL connection
-│   ├── crud.py              # DB operations (insert, fetch, update)
-├── templates/
-│   ├── index.html           # Command panel UI
-│   ├── view.html            # Live robot animation UI
-├── static/
-│   ├── style.css            # Minimalistic CSS styling
-│   ├── animation.js         # Grid-based animation logic
-├── sql/
-│   ├── schema.sql           # PostgreSQL schema (product, robot, tasks)
-├── train.py                 # PPO agent training script
-├── evaluate.py              # Model evaluation and execution
-├── requirements.txt         # Python dependencies
-└── README.md                # Project documentation
-\`\`\`
-
----
 
 ## 🧠 Technologies Used
 
@@ -120,9 +93,3 @@ uvicorn backend.app:app --reload
 ## 🙌 Contributing
 
 Pull requests and feature suggestions are welcome! Feel free to fork and customize the project for different layouts, multi-floor systems, or use with real-world robots.
-
----
-
-## 📜 License
-
-MIT License — free for personal and commercial use.
